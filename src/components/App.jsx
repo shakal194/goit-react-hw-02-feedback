@@ -31,7 +31,7 @@ export class App extends Component {
       return { [name]: prevState[name] + 1 };
     });
   };
-  //comment
+
   render() {
     const { good, neutral, bad } = this.state;
     const total = this.countTotalFeedback();
